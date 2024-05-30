@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marca de Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="brand-name">¡Café del Cielo!</h1>
+        <p class="slogan">El café más celestial que probarás jamás.</p>
+        <p class="benefits">Beneficios:
+            <ul>
+                <li>Despierta tus sentidos</li>
+                <li>Energía ilimitada</li>
+                <li>Sabor celestial en cada sorbo</li>
+            </ul>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F8F8;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.brand-name {
+    font-size: 3em;
+    color: #5E3D32; /* Café */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.slogan {
+    font-size: 1.5em;
+    color: #5E3D32; /* Café */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.benefits {
+    font-size: 1.2em;
+    color: #5E3D32; /* Café */
+}
+
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.benefits li {
+    margin-bottom: 10px;
+}
+
+/* Animación */
+.brand-name {
+    animation: neon-blink 1s infinite alternate;
+}
+
+@keyframes neon-blink {
+    0% {
+        text-shadow: 0 0 10px #5E3D32, 0 0 20px #5E3D32, 0 0 30px #5E3D32;
+    }
+    100% {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4d00, 0 0 40px #ff4d00;
+    }
+}
